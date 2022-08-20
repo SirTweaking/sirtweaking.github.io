@@ -32,13 +32,9 @@ body {
         <source src="music.mp3" type="audio/mpeg">
     </audio>
 
-<IMG STYLE="position:absolute; TOP:200px; RIGHT:300px; WIDTH:500px; HEIGHT:500px" SRC="Background.png">
- 
-</html>
-     
+<p>Your IP address is: <? echo $_SERVER["REMOTE_ADDR"]; ?></p>
 </body>
 </html>
-
 
 
 
